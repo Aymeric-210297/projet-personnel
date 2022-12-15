@@ -39,19 +39,19 @@
 				<legend>Vos informations</legend>
 				<div>
 					<label for="username">Nom d'utilisateur</label>
-					<input type="text" name="username" id="username">
+					<input required type="text" name="username" id="username">
 				</div>
 				<div>
 					<label for="email">Adresse email</label>
-					<input type="email" name="email" id="email">
+					<input required type="email" name="email" id="email">
 				</div>
 				<div>
 					<label for="password">Mot de passe</label>
-					<input type="password" name="password" id="password">
+					<input required type="password" name="password" id="password">
 				</div>
 				<div>
 					<label for="password">Mot de passe (Confirmation)</label>
-					<input type="password" name="password" id="password">
+					<input required type="password" name="password" id="password">
 				</div>
 				<button type="submit">
 					S'inscrire

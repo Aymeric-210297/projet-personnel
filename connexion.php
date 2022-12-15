@@ -39,11 +39,11 @@
 				<legend>Vos informations</legend>
 				<div>
 					<label for="username">Nom d'utilisateur</label>
-					<input type="text" name="username" id="username">
+					<input required type="text" name="username" id="username">
 				</div>
 				<div>
 					<label for="password">Mot de passe</label>
-					<input type="password" name="password" id="password">
+					<input required type="password" name="password" id="password">
 				</div>
 				<button type="submit">
 					Se connecter
