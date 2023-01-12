@@ -1,3 +1,12 @@
+<?php
+    require_once("connexion_database.php");
+
+    $sth = $dbh->prepare("SELECT * FROM biens;");
+    $sth->execute();
+    $result = $sth->fetchAll();
+    echo "<pre>", print_r($result), "</pre>";
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
